@@ -26,7 +26,7 @@ function App() {
           <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
           <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
         </span>
-        Sistema de Voz Activo y En Línea
+        Convierte cada prospecto en una venta antes de que la competencia responda
       </div>
 
       {/* Headline: Ample line height, zero noise, high authority */}
@@ -36,7 +36,7 @@ function App() {
 
       {/* Subtitle: Plenty of breathing room */}
       <p className="text-lg sm:text-xl text-slate-500 font-normal leading-relaxed max-w-3xl mb-12">
-        Convierte cada prospecto en una venta antes de que la competencia responda. Llama, filtra y califica a cada lead en menos de 60 segundos.
+        Llama, filtra y califica a cada lead en menos de 60 segundos.
       </p>
 
       {/* CTAs: High Impact */}
