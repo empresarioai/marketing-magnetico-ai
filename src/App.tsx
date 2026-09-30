@@ -46,11 +46,9 @@ function App() {
         </a>
         
         {/* Risk Reversal Micro-copy */}
-        <div className="mt-4 flex items-center justify-center gap-1 text-[11px] font-medium text-slate-500">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor" className="w-[12px] h-[12px]">
-            <path d="m344-60-76-128-144-32 14-148-98-112 98-112-14-148 144-32 76-128 136 58 136-58 76 128 144 32-14 148 98 112-98 112 14 148-144 32-76 128-136-58-136 58Zm34-102 102-44 104 44 56-96 110-26-10-112 74-84-74-86 10-112-110-24-58-96-102 44-104-44-56 96-110 24 10 112-74 86 74 84-10 114 110 24 58 96Zm102-44Zm4-192 184-184-42-42-142 142-70-70-42 42 112 112Z"/>
-          </svg>
-          <span>Adaptado a tu proceso comercial.</span>
+        <div className="mt-4 flex items-center justify-center gap-1.5 text-[11px] font-medium text-slate-500 leading-none">
+          <span className="material-symbols-outlined text-[10px]">verified</span>
+          <span className="pt-[1px]">Adaptado a tu proceso comercial.</span>
         </div>
       </div>
 
