@@ -32,7 +32,7 @@ function App() {
 
       {/* Subtitle: Plenty of breathing room */}
       <p className="text-lg sm:text-xl text-slate-500 font-normal leading-relaxed max-w-3xl mb-12">
-        Llama, filtra y califica a cada lead en menos de 60 segundos.
+        Llama, filtra y califica a cada lead en menos de 60 segundos con un agente de voz AI.
       </p>
 
       {/* CTAs: High Impact */}
