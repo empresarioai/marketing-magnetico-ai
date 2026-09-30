@@ -27,7 +27,7 @@ function App() {
 
       {/* Headline: Ample line height, zero noise, high authority */}
       <h1 className="font-display font-extrabold text-5xl sm:text-6xl lg:text-[72px] lg:leading-[1.05] text-slate-950 tracking-[-0.04em] mb-8 max-w-4xl">
-        Integra A Tu <br className="hidden md:block" /><span className="text-brand italic">Superestrella De Ventas.</span>
+        Integra A Tu Nueva <br className="hidden md:block" /><span className="text-brand italic">Superestrella De Ventas.</span>
       </h1>
 
       {/* Subtitle: Dan Kennedy direct response style */}
