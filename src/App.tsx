@@ -20,9 +20,13 @@ function App() {
   <section className="w-full py-16 lg:py-20 bg-white border-b border-slate-200">
     <div className="max-w-5xl mx-auto px-6 text-center flex flex-col items-center">
       
-      {/* Eyebrow / Pre-headline (Russell Brunson DR Style) */}
-      <div className="font-sans font-black italic uppercase tracking-widest text-brand text-[11px] sm:text-xs mb-6 sm:mb-8">
-        Atención: Exclusivo Para Empresas B2B High-Ticket
+      {/* Eyebrow: Sensorial Live Status */}
+      <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-50 border border-slate-200 shadow-sm text-slate-700 text-[11px] font-bold tracking-wide uppercase mb-8">
+        <span className="relative flex h-2 w-2">
+          <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+          <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+        </span>
+        Sistema de Voz Activo y En Línea
       </div>
 
       {/* Headline: Ample line height, zero noise, high authority */}
