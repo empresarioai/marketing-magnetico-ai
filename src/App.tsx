@@ -30,9 +30,9 @@ function App() {
         Integra A Tu Nueva <br className="hidden md:block" /><span className="text-brand italic">Superestrella De Ventas.</span>
       </h1>
 
-      {/* Subtitle: Plenty of breathing room */}
-      <p className="text-lg sm:text-xl text-slate-500 font-normal leading-relaxed max-w-3xl mb-12">
-        Llama, filtra y califica a cada lead en menos de 60 segundos con un agente de voz AI.
+      {/* Subtitle: Dan Kennedy direct response style */}
+      <p className="text-lg sm:text-xl text-slate-500 font-normal leading-relaxed max-w-3xl mb-12 text-balance">
+        Deja de quemar presupuesto en leads que se enfrían por responder tarde. Nuestro sistema de voz inteligente filtra a los curiosos y te entrega compradores listos en tu CRM.
       </p>
 
       {/* CTAs: High Impact */}
