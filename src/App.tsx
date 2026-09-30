@@ -46,8 +46,8 @@ function App() {
         </a>
         
         {/* Risk Reversal Micro-copy */}
-        <div className="mt-4 flex items-center justify-center gap-1.5 text-[11px] font-medium text-slate-500">
-          <span className="material-symbols-outlined text-[7px]">verified</span>
+        <div className="mt-4 flex items-center justify-center gap-1 text-[11px] font-medium text-slate-500">
+          <span className="material-symbols-outlined text-[14px] scale-[0.55]">verified</span>
           <span>Adaptado a tu proceso comercial.</span>
         </div>
       </div>
