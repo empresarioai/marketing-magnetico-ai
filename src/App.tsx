@@ -47,7 +47,7 @@ function App() {
         
         {/* Risk Reversal Micro-copy */}
         <div className="mt-4 flex items-center justify-center gap-1.5 text-[11px] font-medium text-slate-500">
-          <span className="material-symbols-outlined text-[14px]">verified</span>
+          <span className="material-symbols-outlined text-[12px]">verified</span>
           <span>Adaptado a tu proceso comercial.</span>
         </div>
       </div>
@@ -120,9 +120,7 @@ function App() {
       
       {/* Section Header */}
       <div className="max-w-2xl mb-16 lg:mb-20 text-left">
-        <div className="text-xs font-semibold uppercase tracking-wider text-brand mb-3">
-          El Desafío Comercial
-        </div>
+
         <h2 className="font-display text-3xl sm:text-4xl font-bold text-slate-950 tracking-[-0.025em] mb-4 text-balance">
           La lentitud al responder destruye tu tasa de conversión.
         </h2>
@@ -137,9 +135,8 @@ function App() {
         {/* Traditional Card */}
         <div className="bg-slate-50 rounded-lg ring-1 ring-slate-200 p-8 sm:p-10 flex flex-col justify-between">
           <div>
-            <div className="pb-5 mb-8 border-b border-slate-200 flex items-center justify-between">
+            <div className="pb-5 mb-8 border-b border-slate-200">
               <span className="text-xs uppercase tracking-wider font-semibold text-slate-500">Prospección Manual</span>
-              <span className="text-xs text-slate-500 bg-slate-200/60 px-2.5 py-0.5 rounded">Lenta e ineficiente</span>
             </div>
 
             <div className="space-y-6">
@@ -164,9 +161,8 @@ function App() {
         {/* Marketing Magnético Card */}
         <div className="bg-white rounded-lg ring-1 ring-slate-200 p-8 sm:p-10 flex flex-col justify-between">
           <div>
-            <div className="pb-5 mb-8 border-b border-slate-200 flex items-center justify-between">
+            <div className="pb-5 mb-8 border-b border-slate-200">
               <span className="text-xs uppercase tracking-wider font-semibold text-brand">Tu Superestrella AI</span>
-              <span className="text-xs text-emerald-700 bg-emerald-50 px-2.5 py-0.5 rounded font-medium">Contacto inmediato</span>
             </div>
 
             <div className="space-y-6">
