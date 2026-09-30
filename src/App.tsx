@@ -21,10 +21,8 @@ function App() {
     <div className="max-w-5xl mx-auto px-6 text-center flex flex-col items-center">
       
       {/* Eyebrow / Pre-headline (Russell Brunson DR Style) */}
-      <div className="text-brand font-bold uppercase tracking-[0.15em] text-[10px] sm:text-[12px] mb-6 sm:mb-8">
-        <span className="opacity-60 mr-1">[</span> 
-        Nuevo Sistema De Voz IA Para Ventas B2B 
-        <span className="opacity-60 ml-1">]</span>
+      <div className="font-sans font-black italic uppercase tracking-widest text-brand text-[11px] sm:text-xs mb-6 sm:mb-8">
+        Atención: Exclusivo Para Empresas B2B High-Ticket
       </div>
 
       {/* Headline: Ample line height, zero noise, high authority */}
