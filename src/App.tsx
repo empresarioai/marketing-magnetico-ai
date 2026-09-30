@@ -20,12 +20,8 @@ function App() {
   <section className="w-full py-16 lg:py-20 bg-white border-b border-slate-200">
     <div className="max-w-5xl mx-auto px-6 text-center flex flex-col items-center">
       
-      {/* Eyebrow: Sensorial Live Status */}
-      <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-50 border border-slate-200 shadow-sm text-slate-700 text-[11px] font-bold tracking-wide uppercase mb-8">
-        <span className="relative flex h-2 w-2">
-          <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
-          <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
-        </span>
+      {/* Eyebrow Text */}
+      <div className="text-[11px] font-bold tracking-widest uppercase text-brand mb-6">
         Convierte cada prospecto en una venta antes de que la competencia responda
       </div>
 
