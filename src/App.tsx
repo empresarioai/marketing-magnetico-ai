@@ -22,7 +22,7 @@ function App() {
       
       {/* Eyebrow Text */}
       <div className="text-[11px] font-bold tracking-widest uppercase text-brand mb-6">
-        Convierte cada prospecto en una venta antes de que la competencia responda
+        Sistema de Voz para Ventas B2B
       </div>
 
       {/* Headline: Ample line height, zero noise, high authority */}
@@ -31,7 +31,7 @@ function App() {
       </h1>
 
       {/* Subtitle: Dan Kennedy direct response style */}
-      <p className="text-lg sm:text-xl text-slate-500 font-normal leading-relaxed max-w-3xl mb-12 text-balance">
+      <p className="text-lg sm:text-xl text-slate-500 font-normal leading-relaxed max-w-3xl mb-12">
         Deja de quemar presupuesto en leads que se enfrían por responder tarde. Nuestro sistema de voz inteligente filtra a los curiosos y te entrega compradores listos en tu CRM.
       </p>
 
