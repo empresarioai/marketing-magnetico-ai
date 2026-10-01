@@ -106,10 +106,10 @@ function App() {
         </div>
 
         <div className="flex flex-col items-center justify-center">
-          <div className="font-display text-3xl lg:text-4xl font-bold text-brand tracking-tight mb-3 tabular-nums">
+          <div className="font-display text-3xl lg:text-4xl font-bold text-slate-950 tracking-tight mb-3 tabular-nums">
             65%
           </div>
-          <div className="text-[11px] uppercase tracking-wider font-semibold text-brand/80">
+          <div className="text-[11px] uppercase tracking-wider font-semibold text-slate-400">
             Tiempo Recuperado
           </div>
         </div>
