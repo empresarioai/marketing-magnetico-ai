@@ -84,42 +84,37 @@ function App() {
 
   {/* METRICS BAR (Calm, spacious, editorial) */}
   <section className="w-full bg-slate-50 border-b border-slate-200 py-12 lg:py-16">
-    <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-10 lg:gap-12">
+    <div className="max-w-5xl mx-auto px-6 lg:px-8">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-12 lg:gap-16 text-center">
         
         <div className="flex flex-col items-center justify-center">
-          <div className="font-display text-4xl lg:text-5xl font-bold text-slate-950 tracking-tight mb-2 tabular-nums">
+          <div className="font-display text-3xl lg:text-4xl font-bold text-slate-950 tracking-tight mb-3 tabular-nums">
             1 min
           </div>
-          <div className="text-xs uppercase tracking-wider font-semibold text-slate-400">
+          <div className="text-[11px] uppercase tracking-wider font-semibold text-slate-400">
             Contacto Inmediato
           </div>
         </div>
 
         <div className="flex flex-col items-center justify-center md:border-l md:border-r border-slate-200">
-          <div className="font-display text-4xl lg:text-5xl font-bold text-slate-950 tracking-tight mb-2 tabular-nums">
+          <div className="font-display text-3xl lg:text-4xl font-bold text-slate-950 tracking-tight mb-3 tabular-nums">
             4x
           </div>
-          <div className="text-xs uppercase tracking-wider font-semibold text-slate-400">
+          <div className="text-[11px] uppercase tracking-wider font-semibold text-slate-400">
             Más Conversión
           </div>
         </div>
 
         <div className="flex flex-col items-center justify-center">
-          <div className="font-display text-4xl lg:text-5xl font-bold text-brand tracking-tight mb-2 tabular-nums">
+          <div className="font-display text-3xl lg:text-4xl font-bold text-brand tracking-tight mb-3 tabular-nums">
             65%
           </div>
-          <div className="text-xs uppercase tracking-wider font-semibold text-brand/80">
+          <div className="text-[11px] uppercase tracking-wider font-semibold text-brand/80">
             Tiempo Recuperado
           </div>
         </div>
 
       </div>
-      
-      {/* Pequeña línea complementaria */}
-      <p className="mt-10 text-[10px] font-bold text-slate-400 uppercase tracking-widest">
-        Resultados validados por equipos B2B
-      </p>
     </div>
   </section>
 
