@@ -59,7 +59,6 @@ function App() {
           <span className="font-display font-bold text-xl text-slate-900 tracking-tight">GoHighLevel</span>
           <span className="font-display font-bold text-xl text-slate-900 tracking-tight">Bitrix24</span>
           <span className="font-display font-bold text-xl text-slate-900 tracking-tight">WhatsApp</span>
-          <span className="font-display font-bold text-xl text-slate-900 tracking-tight">Zapier</span>
         </div>
       </div>
 
