@@ -92,7 +92,7 @@ function App() {
             1 min
           </div>
           <div className="text-[11px] uppercase tracking-wider font-semibold text-slate-400">
-            Contacto Inmediato
+            Tiempo Récord
           </div>
         </div>
 
