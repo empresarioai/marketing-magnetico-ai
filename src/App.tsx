@@ -56,6 +56,7 @@ function App() {
         <div className="flex flex-wrap justify-center items-center gap-6 sm:gap-10 md:gap-14 grayscale opacity-60">
           <span className="font-display font-bold text-xl text-slate-900 tracking-tight">HubSpot</span>
           <span className="font-display font-bold text-xl text-slate-900 tracking-tight">Salesforce</span>
+          <span className="font-display font-bold text-xl text-slate-900 tracking-tight">GoHighLevel</span>
           <span className="font-display font-bold text-xl text-slate-900 tracking-tight">WhatsApp</span>
           <span className="font-display font-bold text-xl text-slate-900 tracking-tight">Bitrix24</span>
           <span className="font-display font-bold text-xl text-slate-900 tracking-tight">Zapier</span>
