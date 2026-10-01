@@ -84,46 +84,42 @@ function App() {
 
   {/* METRICS BAR (Calm, spacious, editorial) */}
   <section className="w-full bg-slate-50 border-b border-slate-200 py-12 lg:py-16">
-    <div className="max-w-5xl mx-auto px-6 lg:px-8">
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-12 lg:gap-16 text-center md:text-left">
+    <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-10 lg:gap-12">
         
-        <div className="md:pr-10 lg:pr-12">
-          <div className="font-display text-3xl lg:text-4xl font-bold text-slate-950 tracking-tight mb-3 tabular-nums">
+        <div className="flex flex-col items-center justify-center">
+          <div className="font-display text-4xl lg:text-5xl font-bold text-slate-950 tracking-tight mb-2 tabular-nums">
             1 min
           </div>
-          <div className="text-[11px] uppercase tracking-wider font-semibold text-slate-400 mb-1.5">
+          <div className="text-xs uppercase tracking-wider font-semibold text-slate-400">
             Contacto Inmediato
           </div>
-          <p className="text-xs text-slate-500 leading-relaxed">
-            Llama a tu lead mientras <strong className="font-medium text-slate-900">sigue en tu página web</strong>.
-          </p>
         </div>
 
-        <div className="md:px-10 lg:px-12 md:border-l border-slate-200">
-          <div className="font-display text-3xl lg:text-4xl font-bold text-slate-950 tracking-tight mb-3 tabular-nums">
+        <div className="flex flex-col items-center justify-center md:border-l md:border-r border-slate-200">
+          <div className="font-display text-4xl lg:text-5xl font-bold text-slate-950 tracking-tight mb-2 tabular-nums">
             4x
           </div>
-          <div className="text-[11px] uppercase tracking-wider font-semibold text-slate-400 mb-1.5">
+          <div className="text-xs uppercase tracking-wider font-semibold text-slate-400">
             Más Conversión
           </div>
-          <p className="text-xs text-slate-500 leading-relaxed">
-            Responder en el primer minuto incrementa un <strong className="font-medium text-slate-900">391%</strong> tus cierres (Estudio: Harvard).
-          </p>
         </div>
 
-        <div className="md:pl-10 lg:pl-12 md:border-l border-slate-200">
-          <div className="font-display text-3xl lg:text-4xl font-bold text-brand tracking-tight mb-3 tabular-nums">
+        <div className="flex flex-col items-center justify-center">
+          <div className="font-display text-4xl lg:text-5xl font-bold text-brand tracking-tight mb-2 tabular-nums">
             65%
           </div>
-          <div className="text-[11px] uppercase tracking-wider font-semibold text-brand/80 mb-1.5">
+          <div className="text-xs uppercase tracking-wider font-semibold text-brand/80">
             Tiempo Recuperado
           </div>
-          <p className="text-xs text-slate-500 leading-relaxed">
-            Cero marcación manual. Tu equipo dedica el <strong className="font-medium text-slate-900">100% de su tiempo</strong> a vender.
-          </p>
         </div>
 
       </div>
+      
+      {/* Pequeña línea complementaria */}
+      <p className="mt-10 text-[10px] font-bold text-slate-400 uppercase tracking-widest">
+        Resultados validados por equipos B2B
+      </p>
     </div>
   </section>
 
