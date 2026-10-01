@@ -34,7 +34,7 @@ function App() {
 <main className="w-full pt-20">
 
   {/* HERO SECTION (Generous whitespace, elegant typography, serene confidence) */}
-  <section className="w-full py-16 lg:py-20 bg-white border-b border-slate-200">
+  <section className="w-full pt-24 pb-16 lg:pt-32 lg:pb-20 bg-white border-b border-slate-200">
     <div className="max-w-5xl mx-auto px-6 text-center flex flex-col items-center">
       
       {/* Eyebrow Text */}
