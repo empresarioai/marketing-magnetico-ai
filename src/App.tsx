@@ -89,7 +89,7 @@ function App() {
         
         <div className="md:pr-10 lg:pr-12">
           <div className="font-display text-3xl lg:text-4xl font-bold text-slate-950 tracking-tight mb-3 tabular-nums">
-            &lt; 60 seg
+            1 min
           </div>
           <div className="text-[11px] uppercase tracking-wider font-semibold text-slate-400 mb-1.5">
             Contacto Inmediato
