@@ -1,6 +1,23 @@
-
+import { useEffect } from 'react';
+import Lenis from 'lenis';
+import 'lenis/dist/lenis.css';
 
 function App() {
+  useEffect(() => {
+    const lenis = new Lenis();
+
+    function raf(time: number) {
+      lenis.raf(time);
+      requestAnimationFrame(raf);
+    }
+
+    requestAnimationFrame(raf);
+
+    return () => {
+      lenis.destroy();
+    };
+  }, []);
+
   return (
     <div className="font-sans antialiased text-slate-900 bg-white selection:bg-brand selection:text-white">
       
@@ -129,13 +146,13 @@ function App() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-16 items-stretch text-left">
         
         {/* Traditional Card */}
-        <div className="bg-slate-50 rounded-lg ring-1 ring-slate-200 p-8 sm:p-10 flex flex-col justify-between">
-          <div>
-            <div className="pb-5 mb-8 border-b border-slate-200">
+        <div className="bg-slate-50/40 rounded-lg border border-slate-200 p-8 sm:p-10 flex flex-col opacity-90">
+          <div className="flex flex-col h-full">
+            <div className="pb-5 mb-8 border-b border-slate-200 shrink-0">
               <span className="text-xs uppercase tracking-wider font-semibold text-slate-500">Prospección Manual</span>
             </div>
 
-            <div className="space-y-6">
+            <div className="space-y-6 flex-1 flex flex-col justify-center">
               <div>
                 <h4 className="text-base font-semibold text-slate-900 mb-2">Respuesta tardía (<strong className="font-bold text-slate-900">4 a 24 horas</strong>)</h4>
                 <p className="text-sm text-slate-500 leading-relaxed">El prospecto se enfría, evalúa otras marcas y deja de responder.</p>
@@ -155,13 +172,13 @@ function App() {
         </div>
 
         {/* Marketing Magnético Card */}
-        <div className="bg-white rounded-lg ring-1 ring-slate-200 p-8 sm:p-10 flex flex-col justify-between">
-          <div>
-            <div className="pb-5 mb-8 border-b border-slate-200">
+        <div className="bg-white rounded-xl ring-1 ring-slate-200 shadow-2xl shadow-slate-200 p-8 sm:p-10 flex flex-col relative">
+          <div className="flex flex-col h-full">
+            <div className="pb-5 mb-8 border-b border-slate-200 shrink-0">
               <span className="text-xs uppercase tracking-wider font-semibold text-brand">Tu Superestrella AI</span>
             </div>
 
-            <div className="space-y-6">
+            <div className="space-y-6 flex-1 flex flex-col justify-center">
               <div>
                 <h4 className="text-base font-semibold text-slate-900 mb-2">Llamada instantánea en 60 segundos</h4>
                 <p className="text-sm text-slate-500 leading-relaxed">Tu agente entra en acción en el momento exacto en que envían su formulario.</p>
@@ -190,9 +207,6 @@ function App() {
       
       {/* Section Header */}
       <div className="max-w-2xl mb-16 lg:mb-20 text-left">
-        <div className="text-xs font-semibold uppercase tracking-wider text-brand mb-3">
-          Proceso Simple
-        </div>
         <h2 className="font-display text-3xl sm:text-4xl font-bold text-slate-950 tracking-[-0.025em] mb-4 text-balance">
           Tres pasos para acelerar tus ventas.
         </h2>
@@ -213,7 +227,7 @@ function App() {
               Captación Inmediata
             </h3>
             <p className="text-sm text-slate-500 leading-relaxed">
-              El prospecto envía un formulario y recibe una llamada en menos de 60 segundos.
+              El prospecto envía sus datos y recibe una llamada en <strong className="font-semibold text-slate-900">menos de 60 segundos</strong>.
             </p>
           </div>
           <div className="mt-8 pt-4 border-t border-slate-200 text-xs text-slate-400">
@@ -227,10 +241,10 @@ function App() {
               Paso 02
             </div>
             <h3 className="font-display text-xl font-bold text-slate-950 mb-3 text-balance">
-              Tu Superestrella Entra en Acción
+              Calificación Inteligente
             </h3>
             <p className="text-sm text-slate-500 leading-relaxed">
-              Tu agente de voz dedicado conversa de manera fluida para validar interés, presupuesto y urgencia real.
+              Tu agente de voz conversa fluidamente para validar <strong className="font-semibold text-slate-900">interés, presupuesto y urgencia</strong>.
             </p>
           </div>
           <div className="mt-8 pt-4 border-t border-slate-200 text-xs text-slate-400">
@@ -244,10 +258,10 @@ function App() {
               Paso 03
             </div>
             <h3 className="font-display text-xl font-bold text-slate-950 mb-3 text-balance">
-              CRM Limpio y Transferencia
+              Transferencia Lista
             </h3>
             <p className="text-sm text-slate-500 leading-relaxed">
-              Actualizamos automáticamente tu CRM etiquetando solo a los leads listos para que tu equipo cierre la venta.
+              Actualizamos tu CRM, entregando a tu equipo <strong className="font-semibold text-slate-900">solo los leads listos</strong> para cerrar.
             </p>
           </div>
           <div className="mt-8 pt-4 border-t border-slate-200 text-xs text-slate-400">
@@ -266,9 +280,6 @@ function App() {
       
       {/* Section Header */}
       <div className="max-w-2xl mb-16 lg:mb-20 text-left">
-        <div className="text-xs font-semibold uppercase tracking-wider text-brand mb-3">
-          Infraestructura
-        </div>
         <h2 className="font-display text-3xl sm:text-4xl font-bold text-slate-950 tracking-[-0.025em] mb-4 text-balance">
           Integrado en tu operación comercial sin complicaciones.
         </h2>
