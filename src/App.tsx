@@ -34,7 +34,7 @@ function App() {
 <main className="w-full pt-20">
 
   {/* HERO SECTION (Generous whitespace, elegant typography, serene confidence) */}
-  <section className="w-full pt-24 pb-16 lg:pt-32 lg:pb-20 bg-white border-b border-slate-200">
+  <section className="w-full pt-32 pb-24 lg:pt-40 lg:pb-28 bg-white border-b border-slate-200">
     <div className="max-w-5xl mx-auto px-6 text-center flex flex-col items-center">
       
       {/* Eyebrow Text */}
@@ -313,7 +313,7 @@ function App() {
       
       <div className="text-center mb-16 lg:mb-20">
         <h2 className="font-display text-3xl sm:text-4xl font-bold text-slate-950 tracking-[-0.03em] leading-tight">
-          Integra a tu <span className="text-brand italic">superestrella de ventas</span> hoy.
+          Integra a tu <span className="text-brand italic">superestrella de ventas</span>{" "}hoy.
         </h2>
       </div>
 
@@ -359,7 +359,7 @@ function App() {
 
 <footer className="w-full bg-white border-t border-slate-200 py-10 text-slate-500">
   <div className="max-w-[1440px] mx-auto px-6 lg:px-12 text-center text-xs text-slate-400">
-    © 2025 Marketing Magnético. Todos los derechos reservados.
+    © 2027 Marketing Magnético. Todos los derechos reservados.
   </div>
 </footer>
 
