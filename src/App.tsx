@@ -321,7 +321,32 @@ function App() {
         <h3 className="font-display text-xl font-bold text-slate-950 mb-1 text-center">Solicitar más información</h3>
         <p className="text-sm text-slate-500 mb-8 text-center">Completa tus datos y nos pondremos en contacto contigo.</p>
 
-        <form onSubmit={(e) => { e.preventDefault(); document.getElementById("simpleForm")?.classList.add("hidden"); document.getElementById("simpleSuccess")?.classList.remove("hidden"); }}>
+        <form onSubmit={async (e) => { 
+            e.preventDefault(); 
+            const name = (document.getElementById('name') as HTMLInputElement).value;
+            const email = (document.getElementById('email') as HTMLInputElement).value;
+            const phone = (document.getElementById('phone') as HTMLInputElement).value;
+            
+            // Show loading or just proceed to success immediately for surprise factor
+            document.getElementById("simpleFields")?.classList.add("hidden"); 
+            document.getElementById("simpleSuccess")?.classList.remove("hidden");
+            
+            try {
+              await fetch('https://quality-agent-os.proyecto-empresarioai.workers.dev/api/start-funnel', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                  leadName: name,
+                  email: email,
+                  phone: phone,
+                  course: "In-Company Superestrella de Ventas AI",
+                  sleepSeconds: 15
+                })
+              });
+            } catch(err) {
+              console.error("Error triggering funnel:", err);
+            }
+          }}>
           <div className="space-y-5" id="simpleFields">
             <div>
               <label htmlFor="name" className="block text-xs font-semibold uppercase tracking-wider text-slate-600 mb-2">Nombre completo</label>
@@ -369,3 +394,4 @@ function App() {
 }
 
 export default App;
+
